@@ -1,0 +1,38 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+
+}
+/* COMMON */
+.logodiv{
+    width: 100%;
+    margin: 0 auto;
+    background-color:blue;
+
+}
+#background-logo {
+    background-image: url('/img/pattern.png');
+    background-repeat: repeat-x;
+    background-size: 10% 20%;
+    height: 200%;
+    width: 10%;
+}
+
+.Booleaner{
+   margin-top: 2px;
+   font-size: smaller;
+   width: 20%;
+    
+}
+.writer{
+ color: blue;
+}
+.size-text{
+    font-size: small;
+}
+
+.spacer {
+    height: 10px; 
+  }
