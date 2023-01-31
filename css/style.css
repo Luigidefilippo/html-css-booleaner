@@ -1,38 +1,79 @@
-/* RESET */
+/* reset */
 *{
-    padding: 0;
     margin: 0;
-    box-sizing: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.evidenza{
+    background-color: yellow;
 
 }
-/* COMMON */
-.logodiv{
-    width: 100%;
-    margin: 0 auto;
-    background-color:blue;
+.contenitore{
+    width: 80%;
+    margin: auto;
 
 }
-#background-logo {
-    background-image: url('/img/pattern.png');
-    background-repeat: repeat-x;
-    background-size: 10% 20%;
-    height: 200%;
-    width: 10%;
+/* header */
+.header{
+background-color: lightblue;
+background-image: url(../img/pattern.png);
+/* due puntini per uscire da css nell img */
+background-size: 250px;
+padding-top: 18px;
+padding-bottom: 10px;
+padding-left: 10px;
 }
 
-.Booleaner{
-   margin-top: 2px;
-   font-size: smaller;
-   width: 20%;
-    
+#header-logo{
+    width: 150px;
 }
-.writer{
- color: blue;
-}
-.size-text{
-    font-size: small;
+.title-container{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.spacer {
-    height: 10px; 
-  }
+.autore-info{
+    color: gray;
+    font-size: .8rem;
+}
+
+.autore{
+    color: blue;
+}
+
+
+.date{
+    color: grey;
+    font-size: .6rem;
+}
+.content{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.content-list{
+    margin: 1rem;
+}
+
+.content table{
+    border-spacing: 0;
+}
+
+.content table thead{
+    background-color: aquamarine;
+}
+.footer-title{
+    color: grey;
+    font-size: .8rem;
+    margin-bottom: 1rem;
+
+
+
+}
+
+.article-item{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+
+}
